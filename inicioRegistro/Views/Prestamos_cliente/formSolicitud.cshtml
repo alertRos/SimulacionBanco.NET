@@ -1,0 +1,51 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "formSolicitud";
+    /*<h4><a style="color:yellow" href="/Prestamos_Cliente/RealizarPago">Pagar prestamo</a></h4>*/
+}
+<link href="~/Content/icss/transaction.css" rel="stylesheet">
+<div class="container">
+    <div class="container-left">
+        <h1 class="transaction-title">SOLICITAR PRESTAMO</h1>
+        <div class="form">
+            <span><b>MONTO A SOLICITAR</b></span>
+            <img title="Monto o cantidad de dinero a solicitar. Click para instrucciones." src="~/Content/img/question-mark.png" width="16px" height="16px" onclick="Modal()"></img>
+            <form action="/Prestamos_Cliente/finalizarSolicitud" method="post" enctype="multipart/form-data">
+                <input type="number" name="monto" required />
+                <input type="submit" value="ENVIAR" />
+            </form>
+            <button class="btn-back-loan" onclick="window.history.back()">ATRÁS</button>
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close" style="font-size: xx-large;">&times;</span>
+                <h1 id="title"></h1>
+                <p id="steps"></p>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function Modal() {
+        const modal = document.getElementById("myModal");
+        let span = document.getElementsByClassName("close")[0];
+
+        document.getElementById('title').innerHTML = '¿CÓMO SE REALIZA EL PRESTAMO?';
+
+        let steps = document.getElementById('steps');
+
+        steps.innerHTML = '<br/>1. Introduzca el monto o cantidad de dinero que desea solicitar en el prestamo, en el campo >MONTO A SOLICITAR<. <br> ' + '<br>2. Click o presione el botón >ENVIAR< para terminar la solicitud.<br> '
+            + '<br>NOTA: La solicitud del prestamo será evaluada para ser aceptado, por lo que se pide paciencia.<br> ';
+
+        modal.style.display = "block";
+
+        span.addEventListener("click", () => {
+            modal.style.display = "none";
+        });
+
+        window.addEventListener("click", () => {
+            if (event.target == modal) modal.style.display = "none";
+        });
+    }
+</script>

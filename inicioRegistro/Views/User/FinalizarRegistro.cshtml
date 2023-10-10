@@ -1,0 +1,33 @@
+﻿@{
+    Layout = null;
+    ViewBag.Title = "FinalizarRegistro";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Content/icss/registerDone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto&display=swap" rel="stylesheet">
+    <title>Banco NMIXX - Registro</title>
+</head>
+<body>
+    <div class="container">
+        <form action="/User/UltimoPaso" method="post" enctype="multipart/form-data">
+            <h2>¡@ViewBag.nombre, el registro casi finaliza!</h2>
+            <input type="hidden" name="cedula" name="idCliente" value="@ViewBag.cedula" />
+            <h3>Este es tu número de cuenta, <b>@ViewBag.nCuenta</b> </h3>
+            <br />
+            <p>Crea el nuevo PIN de 4 digitos para acceder a tu cuenta</p>
+            <input type="text" minlength="4" maxlength="4" placeholder="Ingresa un PIN" name="pin" />
+            <input type="submit" value="TERMINAR" />
+        </form>
+    </div>
+ <script>
+
+</script>
+</body>
+</html>
+
+

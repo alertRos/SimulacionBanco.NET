@@ -1,0 +1,45 @@
+﻿@model inicioRegistro.Models.LoanApplication
+@{
+    Layout = "~/Views/Shared/_LayoutAdmi.cshtml";
+    ViewBag.Title = "formPrestamos";
+}
+@Styles.Render("~/Content/icss/crud/aprobar.css")
+    &nbsp;&nbsp;&nbsp; @Html.ActionLink("  Volver atrás", "Index")
+    <div class="registro">
+        <h2>APROBAR PRESTAMO</h2>
+        <form action="/Prestamos/finalizarPrestamo" method="post" enctype="multipart/form-data">
+           <input type="hidden" value="@Model.idSolicitud" name="id"/>
+           <label for="nCuenta">Numero de cuenta del cliente</label><input type="text" placeholder="Numero de cuenta del cliente" value="@Model.numCuenta" readonly="readonly" minlength="16" maxlength="16" name="nCuenta" class="form-control" required /><br />
+            Garantia <select name="garantia" required>
+                <option value="PERSONAL">Personal</option>
+                <option value="INMOBILIARIA">Inmobiliaria</option>
+                <option value="AUTOMOVIL">Automóvil</option>
+                <option value="HIPOTECA">Hipoteca</option>
+            </select><br />
+            Numero de cuotas
+            <select name="cuotas" required>
+                <option value="12">1 año</option>
+                <option value="18">1.5 años</option>
+                <option value="24">2 años</option>
+                <option value="30">2.5 años</option>
+                <option value="36">3 años</option>
+                <option value="42">3.5 años</option>
+                <option value="48">4 años</option>
+                <option value="54">4.5 años</option>
+                <option value="60">5 años</option>
+            </select><br />
+
+            Tasa de interés
+            <select name="interes"required>
+                <option value="1">1%</option>
+                <option value="1.5">1.5%</option>
+                <option value="2">2%</option>
+                <option value="2.5">2.5%</option>
+                <option value="3">3%</option>
+                <option value="3.5">3.5%</option>
+            </select><br />
+            Fecha de termino<input type="date" name="f_termino" required /><br />
+            <input type="submit" />
+        </form>
+
+    </div>

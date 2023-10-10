@@ -1,0 +1,55 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_LayoutAdmi.cshtml";
+    ViewBag.title = "Administrador de registros";
+}
+@Styles.Render("~/Content/icss/crud/Index.css")
+    <h1>ADMINISTRADOR DE REGISTROS</h1>
+    <div class="card">
+        <a href='@Url.Content("~/CrudUsers/Index")'>
+            <button>
+                <span>USUARIO</span>
+            </button>
+        </a>
+    </div>
+
+    <div class="card" >
+        <a href='@Url.Content("~/CrudCliente/Index")'>
+            <button>
+                <span>CLIENTE</span>
+            </button>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href='@Url.Content("~/CrudLoans/Index")'>
+            <button>
+                <span>PRESTAMOS</span>
+            </button>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href='@Url.Content("~/CrudTransactions/Index")'>
+            <button>
+                <span>TRANSACCIONES</span>
+            </button>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href='@Url.Content("~/CrudLoanApplications/Index")'>
+            <button>
+                <span>SOLICITUDES DE PRESTAMOS</span>
+            </button>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href='@Url.Content("~/Prestamos/Index")'>
+            <button>
+                <span>APROBAR PRESTAMOS</span>
+            </button>
+        </a>
+    </div>
+

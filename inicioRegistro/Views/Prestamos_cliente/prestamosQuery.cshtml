@@ -1,0 +1,43 @@
+﻿@model List<inicioRegistro.Models.ViewModel.PrestamosViewData>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Index";
+}
+<link href="~/Content/icss/loanQuery.css" rel="stylesheet">
+<div class="container">
+    <div class="container-header">
+        <h1 class="transaction-title">PRESTAMOS</h1>
+        <a href='@Url.Content("~/User/Inicio")' class="back-loan">&larr;  ATRÁS</a>
+        <a href='@Url.Content("~/Prestamos_Cliente/formSolicitud")' class="request-loan">&plus;   SOLICITAR PRESTAMO</a>
+    </div>
+    <section>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <div class="card">
+                    <div class="c-right-side">
+                        <span class="amount">$@item.monto.00</span>
+                        <div class="c-left-side">
+                            <span class="c-status">ESTADO</span>
+                            <span class="c-status-response">@item.estado</span>
+                        </div>
+                    </div>
+                    <div class="c-footer">
+                        <a onclick="borrarSolicitud(@item.id)">CANCELAR SOLICITUD</a>
+                    </div>
+                </div>
+            }
+        }
+
+    </section>
+
+</div>
+<script>
+    function borrarSolicitud(id) {
+        if (confirm("Estas seguro de borrar?")) {
+        document.location.href = "@Url.Content("~/Prestamos_Cliente/cancelarSolicitud/")" + id;
+        }
+    }
+</script>
+

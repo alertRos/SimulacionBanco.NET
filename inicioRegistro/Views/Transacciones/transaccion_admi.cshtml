@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewBag.Title = "Transaccion";
+    Layout = "~/Views/Shared/_Layout_admi.cshtml";
+    /*@ViewBag.saldo*/
+}
+<link href="~/Content/icss/transaction.css" rel="stylesheet">
+
+<div class="container">
+    <div class="container-left">
+        <h1 class="transaction-title">APROBAR PRESTAMO</h1>
+        <div class="form">
+            <span><b>NÚMERO DE CUENTA DEL CLIENTE</b></span>
+            <img title="Monto o cantidad de dinero a enviar. Click para instrucciones." src="~/Content/img/question-mark.png" width="16px" height="16px" onclick="Modal()"></img>
+            <input type="number" name="monto" required />
+
+            <span><b>MOTIVO DE PRESTAMO</b></span>
+            <img title="Numero de cuenta de la persona/institucion a enviar dinero. Click para instrucciones." src="~/Content/img/question-mark.png" width="16px" height="16px" onclick="Modal()"></img>
+            <input type="text" name="destinatario" required />
+
+            <span><b>NÚMERO DE CUOTAS</b></span>
+            <img title="Numero de cuenta de la persona/institucion a enviar dinero. Click para instrucciones." src="~/Content/img/question-mark.png" width="16px" height="16px" onclick="Modal()"></img>
+            <input type="text" name="destinatario" required />
+
+            <span><b>TASA DE INTERÉS</b></span>
+            <img title="Numero de cuenta de la persona/institucion a enviar dinero. Click para instrucciones." src="~/Content/img/question-mark.png" width="16px" height="16px" onclick="Modal()"></img>
+            <input type="text" name="destinatario" required />
+
+            <span><b>FECHA DE TÉRMINO</b></span>
+            <img title="Numero de cuenta de la persona/institucion a enviar dinero. Click para instrucciones." src="~/Content/img/question-mark.png" width="16px" height="16px" onclick="Modal()"></img>
+            <input type="text" name="destinatario" required />
+
+            <input type="submit" value="ENVIAR" />
+            <span>@ViewBag.mensaje</span>
+            <button class="btn-back">ATRÁS</button>
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close" style="font-size: xx-large;">&times;</span>
+                <h1 id="title"></h1>
+                <p id="steps"></p>
+            </div>
+        </div>
+    </div>
+    <div class="container-right">
+        <span class="amount-title">SALDO DISPONIBLE</span>
+        <h2 style="color: limegreen" class="amount">RD$2000</h2>
+    </div>
+</div>
+<script>
+    function Modal() {
+        const modal = document.getElementById("myModal");
+        let span = document.getElementsByClassName("close")[0];
+
+        document.getElementById('title').innerHTML = '¿CÓMO SE REALIZA LA TRANSACCIÓN?';
+
+        let steps = document.getElementById('steps');
+
+        steps.innerHTML = '<br/>1. Ingrese el monto o cantidad de dinero a enviar en el primer campo >MONTO A ENVIAR<. <br> ' + '<br>2. Introduzca el numero de cuenta de la persona o entidad a la que se desea enviar el dinero en el segundo campo >DESTINATARIO<.<br> '
+            + '<br>3. Click al botón de enviar para confirmar la transacción.<br> ';
+
+        modal.style.display = "block";
+
+        span.addEventListener("click", () => {
+            modal.style.display = "none";
+        });
+
+        window.addEventListener("click", () => {
+            if (event.target == modal) modal.style.display = "none";
+        });
+    }
+</script>

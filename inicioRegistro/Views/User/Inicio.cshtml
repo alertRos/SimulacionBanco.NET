@@ -1,0 +1,62 @@
+﻿@model inicioRegistro.Models.User
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Index";
+}
+@Styles.Render("~/Content/icss/index.css")
+<div class="container">
+    <div class="left">
+        <section>
+            <span class="amount"><b>RD$ @ViewBag.saldo.00</b></span>
+        </section>
+
+        <section class="services">
+            <h1>SERVICIOS</h1>
+            <div class="transactions">
+                <a href='@Url.Content("~/Transacciones/Index")'>
+                    <button> </button>
+                    <span>TRANSACCIONES</span>
+                </a>
+            </div>
+
+            <div class="loans">
+                <a href='@Url.Content("~/Prestamos_Cliente/Index")'>
+                    <button> </button>
+                    <span>PRESTAMOS</span>
+                </a>
+            </div>
+
+            <div class="investments">
+                <a href='@Url.Content("~/Inversiones/Index")'>
+                    <button> </button>
+                    <span style="text-align:center">OTROS SERVICIOS</span>
+                </a>
+            </div>
+        </section>
+    </div>
+    <div class="right">
+        <section>
+            <input type="search" placeholder="BUSCAR">
+            <input type="image" src="~/Content/img/search.png" width="16px" />
+        </section>
+
+        <section>
+            <div class="history">
+                <span class="type">INVERSIÓN</span>
+                <span class="date"><b>12/06/2023</b></span>
+                <span class="h-amount"><b>$100</b></span>
+            </div>
+            <div class="history">
+                <span class="type">INVERSIÓN</span>
+                <span class="date"><b>12/06/2023</b></span>
+                <span class="h-amount"><b>$100</b></span>
+            </div>
+            <div class="history">
+                <span class="type">INVERSIÓN</span>
+                <span class="date"><b>12/06/2023</b></span>
+                <span class="h-amount"><b>$100</b></span>
+            </div>
+            <button class="btn-history">HISTORIAL COMPLETO</button>
+        </section>
+    </div>
+</div>

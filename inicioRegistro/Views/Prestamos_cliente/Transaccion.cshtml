@@ -1,0 +1,12 @@
+﻿
+@{
+    Layout = "~/Views/Shared/layoutinterno.cshtml";
+    ViewBag.Title = "Transaccion";
+}
+<div class="registro">
+    <link href="~/csss/prestamo.css" rel="stylesheet">
+    <h2>Transaccion</h2>
+    <form action="/Prestamos_Cliente/CompletarTransaccion" method="post" enctype="multipart/form-data">
+        <button type="submit">Pagar prestamo</button>
+    </form>
+</div>

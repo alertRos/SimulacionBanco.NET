@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewBag.Title = "Transaccion";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link  rel="stylesheet" href="~/Content/icss/transaction.css">
+
+<div class="container">
+    <div class="container-left">
+        <h1 class="transaction-title">TRANSACCIÓN</h1>
+        <div class="form">
+            <form action="/Transacciones/CompletarTransaccion" method="post" enctype="multipart/form-data">
+                <span><b>MONTO A ENVIAR</b></span>
+                <img title="Monto o cantidad de dinero a enviar. Click para instrucciones." src="~/Content/img/question-mark.png" width="16px" height="16px" onclick="Modal()"></img>
+                <input type="number" name="monto" min="1" max="@Convert.ToInt32(ViewBag.saldo)" required />
+                <span><b>DESTINATARIO</b></span>
+                <img title="Numero de cuenta de la persona/institucion a enviar dinero. Click para instrucciones." src="~/Content/img/question-mark.png" width="16px" height="16px" onclick="Modal()"></img>
+                <input id="destino" type="text" name="destinatario" maxlength="16" onchange="validarCuenta()" required />
+                <input type="submit" value="ENVIAR" onclick="validarCuenta()"/>
+             </form>
+                <span>@ViewBag.mensaje</span>
+                <button class="btn-back" onclick="window.history.back()">ATRÁS</button>
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close" style="font-size: xx-large;">&times;</span>
+                <h1 id="title"></h1>
+                <p id="steps"></p>
+            </div>
+        </div>
+    </div>
+    <div class="container-right">
+        <span class="amount-title">SALDO DISPONIBLE</span>
+        <h2 style="color: limegreen" class="amount">RD$@ViewBag.saldo.00</h2>
+    </div>
+</div>
+<script>
+    function validarCuenta() {
+       let destino = document.getElementById("destino");
+
+        if (destino.value == "@ViewBag.cuenta") {
+            alert("Las transacciones hacia su propia cuenta están prohibidas.");
+            destino.value = "";
+        }
+    }
+
+    function Modal() {
+        const modal = document.getElementById("myModal");
+        let span = document.getElementsByClassName("close")[0];
+
+        document.getElementById('title').innerHTML = '¿CÓMO SE REALIZA LA TRANSACCIÓN?';
+
+        let steps = document.getElementById('steps');
+
+        steps.innerHTML = '<br/>1. Ingrese el monto o cantidad de dinero a enviar en el primer campo >MONTO A ENVIAR<. <br> ' + '<br>2. Introduzca el numero de cuenta de la persona o entidad a la que se desea enviar el dinero en el segundo campo >DESTINATARIO<.<br> '
+            + '<br>3. Click al botón de enviar para confirmar la transacción.<br> ';
+
+        modal.style.display = "block";
+
+        span.addEventListener("click", () => {
+            modal.style.display = "none";
+        });
+
+        window.addEventListener("click", () => {
+            if (event.target == modal) modal.style.display = "none";
+        });
+    }
+</script>

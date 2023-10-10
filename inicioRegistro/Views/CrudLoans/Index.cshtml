@@ -1,0 +1,84 @@
+﻿@model IEnumerable<inicioRegistro.Models.Loan>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmi.cshtml";
+}
+@Styles.Render("~/Content/icss/crud/crud.css")
+
+<p> &nbsp;&nbsp;&nbsp; &larr; <a href='@Url.Content("~/Admin/Index")'>ATRÁS</a></p>
+<p>
+    &nbsp;&nbsp;&nbsp; &plus;  @Html.ActionLink("NUEVO REGISTRO", "Create")
+</p>
+<h1>PRESTAMOS</h1>
+<div>
+    <table class="table table-striped table-hover">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Garantia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.idSolicitud)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fk_idCliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fechaAprobacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaInicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaTermino)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tasaInteres)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.capital)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.costoPrestamo)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Garantia)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.idSolicitud)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.fk_idCliente)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.fechaAprobacion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaInicio)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaTermino)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.tasaInteres)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.capital)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.costoPrestamo)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.idPrestamo }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.idPrestamo })
+                </td>
+            </tr>
+        }
+
+    </table>
+    </div>

@@ -1,0 +1,70 @@
+﻿@model IEnumerable<inicioRegistro.Models.LoanApplication>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmi.cshtml";
+}
+@Styles.Render("~/Content/icss/crud/crud.css")
+
+<p> &nbsp;&nbsp;&nbsp; &larr; <a href='@Url.Content("~/Admin/Index")'>ATRÁS</a></p>
+<p>
+    &nbsp;&nbsp;&nbsp; &plus;  @Html.ActionLink("NUEVO REGISTRO", "Create")
+</p>
+<h1>SOLICITUDES DE PRESTAMO</h1>
+<div>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.idSolicitud)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.montoSolicitado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fechaSolicitud)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.estadoSolicitud)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fk_idCliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.numCuenta)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.idSolicitud)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.montoSolicitado)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.fechaSolicitud)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.estadoSolicitud)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.fk_idCliente)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.numCuenta)
+                </td>
+                <td>
+                    <a onclick="ir(@item.idSolicitud)">Aprobar prestamo</a>
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+<script>
+    function ir(id) {
+        document.location.href = "@Url.Content("~/Prestamos/formPrestamos/")" + id;
+    }
+</script>

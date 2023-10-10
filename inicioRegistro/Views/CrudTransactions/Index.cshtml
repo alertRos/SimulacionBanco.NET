@@ -1,0 +1,60 @@
+﻿@model IEnumerable<inicioRegistro.Models.Transaction>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmi.cshtml";
+}
+@Styles.Render("~/Content/icss/crud/crud.css")
+
+<p> &nbsp;&nbsp;&nbsp; &larr; <a href='@Url.Content("~/Admin/Index")'>ATRÁS</a></p>
+<p>
+    &nbsp;&nbsp;&nbsp; &plus;  @Html.ActionLink("NUEVO REGISTRO", "Create")
+</p>
+<h1>TRANSACCIONES</h1>
+<div>
+    <table class="table table-striped table-hover">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.monto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.idEmisor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.emisor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.destinatario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fechaTransaccion)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.monto)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.idEmisor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.emisor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.destinatario)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.fechaTransaccion)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.idTransaccion }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.idTransaccion })
+                </td>
+            </tr>
+        }
+
+    </table>
+    </div>

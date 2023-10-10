@@ -1,0 +1,55 @@
+﻿@model IEnumerable<inicioRegistro.Models.Client>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Content/icss/registro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto&display=swap" rel="stylesheet">
+    <title>Banco NMIXX - Registro</title>
+</head>
+<body>
+    <div class="container">
+        <form action="/User/CrearUsuario" method="post" enctype="multipart/form-data">
+            <h1>REGISTRO</h1>
+            <div class="form-inputs">
+                <span>Nombre</span>
+                <input name="nombre" type="text" placeholder="" required>
+            </div>
+            <div class="form-inputs">
+                <span>Apellido</span>
+                <input name="apellido" type="text" placeholder="" required>
+            </div>
+            <div class="form-inputs">
+                <span>Cédula</span>
+                <input name="cedula" type="text" maxlength="11" minlength="11" placeholder="" required>
+            </div>
+            <div class="form-inputs">
+                <span>Teléfono</span>
+                <input name="telefono" type="text" maxlength="15" minlength="10" placeholder="" required>
+            </div>
+            <div class="form-inputs">
+                <span>Direccion</span>
+                <input name="direccion" type="text" placeholder="" required>
+            </div>
+            <div>
+                <input type="submit" class="form-sub" value="ENVIAR" style="margin:5px">
+            </div>
+            <div class="footer">
+                <p>¿Ya tienes una cuenta?  <a href="/User/InicioSesion">Inicia sesión</a></p>
+                <p id="mensaje" style="color:darkred"></p>
+            </div>
+        </form>
+    </div>
+    @if(ViewBag.mensaje != null)
+        {
+            <script>
+                document.getElementById("mensaje").innerText = "@ViewBag.mensaje";
+            </script>
+        }
+</body>
+</html>

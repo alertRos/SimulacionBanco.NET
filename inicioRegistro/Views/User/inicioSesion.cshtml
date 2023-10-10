@@ -1,0 +1,36 @@
+﻿@model inicioRegistro.Models.User
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Content/icss/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto&display=swap" rel="stylesheet">
+    <title>Banco NMIXX - Login</title>
+</head>
+<body>
+    <div class="container">
+        <form class="form" action="/User/IniciarSesion" method="post" enctype="multipart/form-data">
+            <div class="back"></div>
+            <div class="front">
+                <h1>NMIXX</h1>
+                <input type="text" name="cedula" placeholder="USUARIO"  minlength="11" maxlength="11" required>
+                <input type="password" placeholder="CONTRASEÑA" name="pin" minlength="4" maxlength="4"  required>
+                <input type="submit" class="form-sub" value="INICIAR SESIÓN">
+                <b><p class="form-p">¿Aún no tienes una cuenta? <a href="/User/Registro">Regístrate</a></p></b>
+            </div>
+        </form>
+    </div>
+    <script>
+        if (@ViewBag.mensaje != null)
+        {
+            alert("@ViewBag.mensaje");
+        }  
+    </script>
+</body>
+</html>
