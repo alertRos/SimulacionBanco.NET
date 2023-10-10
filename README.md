@@ -1,6 +1,6 @@
 # SimulacionBanco.NET
 HOLAA! PROYECTO EN TERMINACIÓN.
-#Funcionalidades:
+# Funcionalidades:
 Transacciones
 Prestamos
 Administración de registros (CRUD)
