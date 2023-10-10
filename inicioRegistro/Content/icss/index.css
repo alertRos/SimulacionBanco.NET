@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+}
+/****************LEFT SIDE************************/
+.amount {
+    font-family: Roboto, sans-serif;
+    font-size: xx-large;
+    color: rgba(23, 16, 98, 1);
+    display: block;
+    position: relative;
+    top: 4rem;
+    left: 2rem;
+}
+
+.services div {
+    width: 4rem;
+    height: 4rem;
+    margin: 2px;
+    position: relative;
+    border-radius: 2rem;
+}
+
+.transactions {
+    top: 12rem;
+    left: 9rem;
+}
+
+.transactions button {
+    background-color: rgba(205, 177, 177, 1);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    border-style: none;
+}
+
+.transactions button:hover {
+    background-color: rgb(179, 157, 157);
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.transactions span {
+    position: relative;
+    right: 1.5rem;
+    top: 10px;
+}
+
+.services h1 {
+    display: none;
+}
+
+.loans {
+    top: 16rem;
+    left: 2rem;
+}
+
+.loans button {
+    background-color: rgba(23, 16, 98, 1);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    border-style: none;
+}
+
+.loans button:hover {
+    background-color: rgb(37, 27, 150);
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.loans span,
+.investments span {
+    position: relative;
+    right: 6.5px;
+    top: 11px;
+}
+
+
+.investments {
+    top: 12rem;
+    left: 15rem;
+}
+
+.investments button {
+    background-color: rgba(150, 139, 139, 1);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    border-style: none;
+}
+
+.investments button:hover {
+    background-color: rgb(112, 104, 104);
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+
+.services div span {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(66, 67, 70);
+}
+
+/****************RIGHT SIDE************************/
+
+input[type=search] {
+    position: relative;
+    border-style: none;
+    top: 5rem;
+    left: 3rem;
+    width: 20.2rem;
+    height: 26px;
+}
+
+.right input[type=image] {
+    position: relative;
+    top: 5.2rem;
+    left: 3rem;
+}
+
+.history {
+    position: relative;
+    top: 6rem;
+    left: 3rem;
+    background-color: rgba(218, 235, 229, 1);
+    width: 22rem;
+    height: 80px;
+    border-radius: 2rem;
+    margin-bottom: 10px;
+}
+
+.btn-history {
+    position: relative;
+    top: 7rem;
+    left: 9.2rem;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    width: 10rem;
+    height: 2rem;
+    font-family: Roboto;
+    border-radius: 1rem;
+}
+
+.btn-history:hover {
+    background-color: darkred;
+    width: 10.3rem;
+    height: 2.3rem;
+    cursor: pointer;
+    border-style: none;
+}
+
+.type, .h-amount, .date {
+    display: block;
+    font-family: Roboto;
+}
+
+.type {
+    position: relative;
+    top: 16px;
+    left: 30px;
+    font-size: 12px;
+}
+
+.date {
+    position: relative;
+    top: 22px;
+    left: 30px;
+    font-size: 17px;
+}
+
+.h-amount {
+    font-size: 20px;
+    position: relative;
+    right: 30px;
+    float: right;
+    bottom: 5px;
+    color: rgba(59, 179, 49, 1);
+}
+
+footer {
+    position: relative;
+    top: 10rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .amount {
+        font-size: xlarge;
+        top: 2rem;
+        left: 1.5rem;
+    }
+
+    .services {
+        font-family: Roboto;
+    }
+
+    .services h1 {
+        display: flex;
+        position: relative;
+        top: 5rem;
+        left: 2rem;
+        font-size: x-large;
+        color: rgb(30, 19, 33);
+    }
+
+    .services div {
+        width: 1vh;
+        height: 1vh;
+        margin-bottom: 15vh;
+        display: block;
+    }
+
+    .services div button {
+        width: 6rem;
+        height: 6rem;
+        border-radius: 6rem;
+        margin-bottom: 0px;
+    }
+
+    .services div button:hover {
+        background-color: rgb(37, 27, 150);
+        width: 5.8rem;
+        height: 5.8rem;
+        border-radius: 5.8rem;
+        cursor: pointer;
+    }
+
+    .transactions, .loans, .investments {
+        top: 5rem;
+        left: 2rem;
+    }
+
+    .transactions p, .loans p, .investments p {
+        position: relative;
+        left: 18vh;
+        font-size: large;
+        top: -9vh;
+    }
+
+    /****************Right side*************/
+    .right-container {
+        margin-top: 10rem;
+        margin-bottom: 2rem;
+    }
+
+    input[type=search] {
+        position: relative;
+        border: solid 1px gray;
+        border-radius: 2rem;
+        top: 5rem;
+        left: 3.4rem;
+        width: 18rem;
+        padding-left: 1rem;
+        height: 30px;
+        display: inline-block;
+    }
+
+    .right input[type=image] {
+        position: relative;
+        top: 3.2rem;
+        left: 22rem;
+    }
+
+    .btn-history {
+        height: 4rem;
+        width: 9rem;
+        font-size: 15px;
+        top: 6rem;
+    }
+
+    .btn-history:hover {
+        background-color: darkred;
+        width: 10rem;
+        height: 4rem;
+        left: 9rem;
+        cursor: pointer;
+        border-style: none;
+    }
+}

@@ -1,0 +1,54 @@
+﻿body {
+    margin: 0;
+    font-family: Roboto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    font-family: Roboto;
+    color: #2c2e51;
+}
+
+.cards-container {
+    display: inline-block;
+}
+
+.card {
+    border: none;
+    display: inline-block;
+    margin: 1vh -5vh 5vh 10vh;
+}
+
+.card button {
+    border: none;
+    width: 27rem;
+    height: 10.5rem;
+    background-image: url(../../img/card-back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    /*******************************************/
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 20px 30px -6px rgba(24, 65, 171, 0.721);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 2rem;
+    font-size: 24px;
+}
+
+    .card button:hover {
+        transform: translateY(3px);
+        box-shadow: none;
+    }
+
+.card span {
+    font-size: 20px;
+    color: rgb(228, 249, 249);
+    letter-spacing: 0.1em;
+}
+a{
+    text-decoration: none;
+}

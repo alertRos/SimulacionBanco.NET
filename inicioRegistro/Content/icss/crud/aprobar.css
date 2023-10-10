@@ -1,0 +1,50 @@
+
+.registro {
+    display: grid;
+    place-items: center;
+}
+
+h2 {
+    color: midnightblue
+}
+
+a {
+    margin-left: 3rem;
+    font-size: large;
+    color: darkred;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+input[type="text"], input[type="date"]{
+    border: none;
+    background-color: rgba(228, 228, 241, 0.731);
+    height: 2rem;
+    width: 16.8rem;
+    padding-left: 14px;
+    display:block;
+}
+
+input[type="submit"] {
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 1.8rem;
+    width: 8rem;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 9.5rem;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(51, 47, 47);
+    cursor: pointer;
+}
+select {
+    border: none;
+    background-color: rgba(228, 228, 241, 0.731);
+    height: 2rem;
+    width: 16.8rem;
+    padding-left: 14px;
+    display: block;
+}

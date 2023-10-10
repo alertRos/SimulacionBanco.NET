@@ -1,0 +1,49 @@
+﻿body {
+    font-family: Roboto;
+}
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+h4 {
+    position: relative;
+    text-align: center;
+    font-size: xx-large;
+    color: midnightblue;
+    bottom: 2rem;
+}
+dl{
+   margin-left: 5rem;
+}
+dt {
+    color: slategrey;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+dd {
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+input[type="submit"] {
+    display:inline-block;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 1.8rem;
+    width: 8rem;
+    border-radius: 2rem;
+    margin-right:2rem;
+    margin-bottom: 2rem;
+}
+a {
+    display: inline-block;
+    font-size: large;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: darkred;
+    font-weight: bold;
+}
+.form-actions{
+    float:right;
+}

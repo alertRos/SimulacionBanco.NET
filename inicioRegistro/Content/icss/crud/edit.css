@@ -1,0 +1,49 @@
+.container {
+    font-family: Roboto;
+    margin-top: 3rem;
+    display: flex;
+    margin-left: 4rem;
+}
+
+input[type="text"], input[type="number"]{
+    border: none;
+    background-color: rgba(228, 228, 241, 0.731);
+    height: 1.5rem;
+    width: 16.8rem;
+    margin-bottom: 2rem;
+    margin-top: 10px;
+    border-radius: 2rem;
+    padding-left: 14px;
+}
+input[type="date"] {
+    height: 1.5rem;
+    width: 16.8rem;
+    margin-bottom: 2rem;
+    margin-top: 10px;
+    border-radius: 2rem;
+    padding-left: 14px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(51, 47, 47);
+    cursor: pointer;
+}
+h1{
+    display: block;
+    margin-bottom: 2.5rem;
+}
+a{
+    text-decoration: none;
+    color: darkred;
+    text-transform: uppercase;
+    font-weight:bold;
+    margin-bottom: 2rem;
+}
+label{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: lightslategrey;
+}
+.form-group{
+    margin-left: 1rem;
+}

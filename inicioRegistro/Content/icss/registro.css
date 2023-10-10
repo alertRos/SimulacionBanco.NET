@@ -1,0 +1,123 @@
+.container {
+    font-family: Roboto;
+    margin-top: 3rem;
+    display: flex;
+    margin-left: 4rem;
+}
+
+.form-inputs span, input {
+    display: block;
+}
+
+.form-inputs input {
+    border: none;
+    background-color: rgba(228, 228, 241, 0.731);
+    height: 1.5rem;
+    width: 16.8rem;
+    margin-bottom: 1rem;
+    margin-top: 10px;
+    border-radius: 2rem;
+    padding-left: 14px;
+}
+
+input[type="submit"] {
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 1.8rem;
+    width: 8rem;
+    position: relative;
+    left: 8.7rem;
+    border-radius: 2rem;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(51, 47, 47);
+    cursor: pointer;
+}
+
+.form-inputs span {
+    color: rgb(97, 96, 96);
+}
+
+.container p {
+    margin-top: 2rem;
+    color: rgb(23, 21, 21);
+}
+
+.container a {
+    margin-top: 2rem;
+    color: rgb(71, 143, 230);
+}
+
+.footer {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        background-color: rgb(225, 229, 232);
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .container {
+        margin: 0 auto;
+        padding: 1rem;
+        max-width: 400px;
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .form-inputs {
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+
+    .form-inputs span {
+        display: block;
+        color: rgb(97, 96, 96);
+    }
+
+    .form-inputs input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 2rem;
+        background-color: rgba(228, 228, 241, 0.731);
+    }
+
+    input[type="submit"] {
+        width: 10rem; 
+        padding: 10px;
+        height: 2.3rem;
+        border: none;
+        position: relative;
+        left: 0rem;
+        border-radius: 2rem;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: rgb(51, 47, 47);
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .container p {
+        margin-top: 1rem;
+        color: rgb(23, 21, 21);
+    }
+
+    .container a {
+        color: rgb(71, 143, 230);
+    }
+}
