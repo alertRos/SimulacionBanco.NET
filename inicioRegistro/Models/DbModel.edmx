@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="db_bancoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Account">
+          <Key>
+            <PropertyRef Name="idCuenta" />
+          </Key>
+          <Property Name="idCuenta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="numCuenta" Type="varchar" MaxLength="16" Nullable="false" />
+          <Property Name="saldo" Type="float" Nullable="false" />
+          <Property Name="fk_idCliente" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Clients">
+          <Key>
+            <PropertyRef Name="idCliente" />
+          </Key>
+          <Property Name="idCliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="60" Nullable="false" />
+          <Property Name="apellido" Type="varchar" MaxLength="60" Nullable="false" />
+          <Property Name="cedula" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="direccion" Type="varchar" MaxLength="60" Nullable="false" />
+          <Property Name="telefono" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="fk_idUsuario" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="GuaranteeType">
+          <Key>
+            <PropertyRef Name="idGarantia" />
+          </Key>
+          <Property Name="idGarantia" Type="int" Nullable="false" />
+          <Property Name="_tipoGarantia" Type="varchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="LoanApplication">
+          <Key>
+            <PropertyRef Name="idSolicitud" />
+          </Key>
+          <Property Name="idSolicitud" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="montoSolicitado" Type="float" Nullable="false" />
+          <Property Name="fechaSolicitud" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="estadoSolicitud" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="fk_idCliente" Type="int" Nullable="false" />
+          <Property Name="numCuenta" Type="varchar" MaxLength="16" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Loans">
+          <Key>
+            <PropertyRef Name="idPrestamo" />
+          </Key>
+          <Property Name="idPrestamo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Garantia" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="idSolicitud" Type="int" Nullable="false" />
+          <Property Name="fk_idCliente" Type="int" Nullable="false" />
+          <Property Name="fechaAprobacion" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="FechaInicio" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="FechaTermino" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="tasaInteres" Type="float" Nullable="false" />
+          <Property Name="capital" Type="float" Nullable="false" />
+          <Property Name="costoPrestamo" Type="float" Nullable="false" />
+        </EntityType>
+        <EntityType Name="LoanSchedule">
+          <Key>
+            <PropertyRef Name="idCronograma_pres" />
+          </Key>
+          <Property Name="idCronograma_pres" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="fk_idPrestamo" Type="int" Nullable="false" />
+          <Property Name="cuotaPrestamo" Type="float" Nullable="false" />
+          <Property Name="tipoPago" Type="varchar" MaxLength="40" Nullable="false" />
+          <Property Name="abonoCapital" Type="float" Nullable="false" />
+          <Property Name="fechaPlanificada" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="fechaEfectiva" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="fk_idComprobante" Type="int" Nullable="false" />
+          <Property Name="fk_idCliente" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Payments">
+          <Key>
+            <PropertyRef Name="idComprobante" />
+          </Key>
+          <Property Name="idComprobante" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="tipoPago" Type="varchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Transactions">
+          <Key>
+            <PropertyRef Name="idTransaccion" />
+          </Key>
+          <Property Name="idTransaccion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="monto" Type="float" Nullable="false" />
+          <Property Name="idEmisor" Type="int" Nullable="false" />
+          <Property Name="emisor" Type="varchar" MaxLength="16" Nullable="false" />
+          <Property Name="destinatario" Type="varchar" MaxLength="16" Nullable="false" />
+          <Property Name="fechaTransaccion" Type="varchar" MaxLength="10" Nullable="false" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="idUsuario" />
+          </Key>
+          <Property Name="idUsuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="cUsuario" Type="varchar" MaxLength="16" Nullable="false" />
+          <Property Name="pin" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="db_bancoModelStoreContainer">
+          <EntitySet Name="Account" EntityType="Self.Account" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Clients" EntityType="Self.Clients" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="GuaranteeType" EntityType="Self.GuaranteeType" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LoanApplication" EntityType="Self.LoanApplication" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Loans" EntityType="Self.Loans" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LoanSchedule" EntityType="Self.LoanSchedule" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Payments" EntityType="Self.Payments" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Transactions" EntityType="Self.Transactions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="db_bancoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Account">
+          <Key>
+            <PropertyRef Name="idCuenta" />
+          </Key>
+          <Property Name="idCuenta" Type="Int32" Nullable="false" />
+          <Property Name="numCuenta" Type="String" MaxLength="16" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="saldo" Type="Double" Nullable="false" />
+          <Property Name="fk_idCliente" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="GuaranteeType">
+          <Key>
+            <PropertyRef Name="idGarantia" />
+          </Key>
+          <Property Name="idGarantia" Type="Int32" Nullable="false" />
+          <Property Name="C_tipoGarantia" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Payment">
+          <Key>
+            <PropertyRef Name="idComprobante" />
+          </Key>
+          <Property Name="idComprobante" Type="Int32" Nullable="false" />
+          <Property Name="tipoPago" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Transaction">
+          <Key>
+            <PropertyRef Name="idTransaccion" />
+          </Key>
+          <Property Name="idTransaccion" Type="Int32" Nullable="false" />
+          <Property Name="monto" Type="Double" Nullable="false" />
+          <Property Name="idEmisor" Type="Int32" Nullable="false" />
+          <Property Name="emisor" Type="String" MaxLength="16" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="destinatario" Type="String" MaxLength="16" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="fechaTransaccion" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="idUsuario" />
+          </Key>
+          <Property Name="idUsuario" Type="Int32" Nullable="false" />
+          <Property Name="cUsuario" Type="String" MaxLength="16" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="pin" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="DBModel" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Accounts" EntityType="Self.Account" />
+          <EntitySet Name="GuaranteeTypes" EntityType="Self.GuaranteeType" />
+          <EntitySet Name="Payments" EntityType="Self.Payment" />
+          <EntitySet Name="Transactions" EntityType="Self.Transaction" />
+          <EntitySet Name="Users" EntityType="Self.User" />
+          <EntitySet Name="Clients" EntityType="db_bancoModel.Client" />
+          <EntitySet Name="LoanApplications" EntityType="db_bancoModel.LoanApplication" />
+          <EntitySet Name="Loans" EntityType="db_bancoModel.Loan" />
+          <EntitySet Name="LoanSchedules" EntityType="db_bancoModel.LoanSchedule" />
+        </EntityContainer>
+        <EntityType Name="Client">
+          <Key>
+            <PropertyRef Name="idCliente" />
+          </Key>
+          <Property Name="idCliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="String" Nullable="false" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="apellido" Type="String" Nullable="false" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="cedula" Type="String" Nullable="false" MaxLength="11" FixedLength="false" Unicode="false" />
+          <Property Name="direccion" Type="String" Nullable="false" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="telefono" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="fk_idUsuario" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="LoanApplication">
+          <Key>
+            <PropertyRef Name="idSolicitud" />
+          </Key>
+          <Property Name="idSolicitud" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="montoSolicitado" Type="Double" Nullable="false" />
+          <Property Name="fechaSolicitud" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="estadoSolicitud" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="fk_idCliente" Type="Int32" Nullable="false" />
+          <Property Name="numCuenta" Type="String" Nullable="false" MaxLength="16" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Loan">
+          <Key>
+            <PropertyRef Name="idPrestamo" />
+          </Key>
+          <Property Name="idPrestamo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Garantia" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="idSolicitud" Type="Int32" Nullable="false" />
+          <Property Name="fk_idCliente" Type="Int32" Nullable="false" />
+          <Property Name="fechaAprobacion" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="FechaInicio" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="FechaTermino" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="tasaInteres" Type="Double" Nullable="false" />
+          <Property Name="capital" Type="Double" Nullable="false" />
+          <Property Name="costoPrestamo" Type="Double" Nullable="false" />
+        </EntityType>
+        <EntityType Name="LoanSchedule">
+          <Key>
+            <PropertyRef Name="idCronograma_pres" />
+          </Key>
+          <Property Name="idCronograma_pres" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="fk_idPrestamo" Type="Int32" Nullable="false" />
+          <Property Name="cuotaPrestamo" Type="Double" Nullable="false" />
+          <Property Name="tipoPago" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="abonoCapital" Type="Double" Nullable="false" />
+          <Property Name="fechaPlanificada" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="fechaEfectiva" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="fk_idComprobante" Type="Int32" Nullable="false" />
+          <Property Name="fk_idCliente" Type="Int32" Nullable="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="db_bancoModelStoreContainer" CdmEntityContainer="DBModel">
+          <EntitySetMapping Name="Accounts">
+            <EntityTypeMapping TypeName="db_bancoModel.Account">
+              <MappingFragment StoreEntitySet="Account">
+                <ScalarProperty Name="idCuenta" ColumnName="idCuenta" />
+                <ScalarProperty Name="numCuenta" ColumnName="numCuenta" />
+                <ScalarProperty Name="saldo" ColumnName="saldo" />
+                <ScalarProperty Name="fk_idCliente" ColumnName="fk_idCliente" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GuaranteeTypes">
+            <EntityTypeMapping TypeName="db_bancoModel.GuaranteeType">
+              <MappingFragment StoreEntitySet="GuaranteeType">
+                <ScalarProperty Name="idGarantia" ColumnName="idGarantia" />
+                <ScalarProperty Name="C_tipoGarantia" ColumnName="_tipoGarantia" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Payments">
+            <EntityTypeMapping TypeName="db_bancoModel.Payment">
+              <MappingFragment StoreEntitySet="Payments">
+                <ScalarProperty Name="idComprobante" ColumnName="idComprobante" />
+                <ScalarProperty Name="tipoPago" ColumnName="tipoPago" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Transactions">
+            <EntityTypeMapping TypeName="db_bancoModel.Transaction">
+              <MappingFragment StoreEntitySet="Transactions">
+                <ScalarProperty Name="idTransaccion" ColumnName="idTransaccion" />
+                <ScalarProperty Name="monto" ColumnName="monto" />
+                <ScalarProperty Name="idEmisor" ColumnName="idEmisor" />
+                <ScalarProperty Name="emisor" ColumnName="emisor" />
+                <ScalarProperty Name="destinatario" ColumnName="destinatario" />
+                <ScalarProperty Name="fechaTransaccion" ColumnName="fechaTransaccion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="db_bancoModel.User">
+              <MappingFragment StoreEntitySet="User">
+                <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+                <ScalarProperty Name="cUsuario" ColumnName="cUsuario" />
+                <ScalarProperty Name="pin" ColumnName="pin" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Clients">
+            <EntityTypeMapping TypeName="db_bancoModel.Client">
+              <MappingFragment StoreEntitySet="Clients">
+                <ScalarProperty Name="fk_idUsuario" ColumnName="fk_idUsuario" />
+                <ScalarProperty Name="telefono" ColumnName="telefono" />
+                <ScalarProperty Name="direccion" ColumnName="direccion" />
+                <ScalarProperty Name="cedula" ColumnName="cedula" />
+                <ScalarProperty Name="apellido" ColumnName="apellido" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LoanApplications">
+            <EntityTypeMapping TypeName="db_bancoModel.LoanApplication">
+              <MappingFragment StoreEntitySet="LoanApplication">
+                <ScalarProperty Name="numCuenta" ColumnName="numCuenta" />
+                <ScalarProperty Name="fk_idCliente" ColumnName="fk_idCliente" />
+                <ScalarProperty Name="estadoSolicitud" ColumnName="estadoSolicitud" />
+                <ScalarProperty Name="fechaSolicitud" ColumnName="fechaSolicitud" />
+                <ScalarProperty Name="montoSolicitado" ColumnName="montoSolicitado" />
+                <ScalarProperty Name="idSolicitud" ColumnName="idSolicitud" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Loans">
+            <EntityTypeMapping TypeName="db_bancoModel.Loan">
+              <MappingFragment StoreEntitySet="Loans">
+                <ScalarProperty Name="costoPrestamo" ColumnName="costoPrestamo" />
+                <ScalarProperty Name="capital" ColumnName="capital" />
+                <ScalarProperty Name="tasaInteres" ColumnName="tasaInteres" />
+                <ScalarProperty Name="FechaTermino" ColumnName="FechaTermino" />
+                <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+                <ScalarProperty Name="fechaAprobacion" ColumnName="fechaAprobacion" />
+                <ScalarProperty Name="fk_idCliente" ColumnName="fk_idCliente" />
+                <ScalarProperty Name="idSolicitud" ColumnName="idSolicitud" />
+                <ScalarProperty Name="Garantia" ColumnName="Garantia" />
+                <ScalarProperty Name="idPrestamo" ColumnName="idPrestamo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LoanSchedules">
+            <EntityTypeMapping TypeName="db_bancoModel.LoanSchedule">
+              <MappingFragment StoreEntitySet="LoanSchedule">
+                <ScalarProperty Name="fk_idCliente" ColumnName="fk_idCliente" />
+                <ScalarProperty Name="fk_idComprobante" ColumnName="fk_idComprobante" />
+                <ScalarProperty Name="fechaEfectiva" ColumnName="fechaEfectiva" />
+                <ScalarProperty Name="fechaPlanificada" ColumnName="fechaPlanificada" />
+                <ScalarProperty Name="abonoCapital" ColumnName="abonoCapital" />
+                <ScalarProperty Name="tipoPago" ColumnName="tipoPago" />
+                <ScalarProperty Name="cuotaPrestamo" ColumnName="cuotaPrestamo" />
+                <ScalarProperty Name="fk_idPrestamo" ColumnName="fk_idPrestamo" />
+                <ScalarProperty Name="idCronograma_pres" ColumnName="idCronograma_pres" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
