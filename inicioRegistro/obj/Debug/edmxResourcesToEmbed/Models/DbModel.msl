@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="db_bancoModelStoreContainer" CdmEntityContainer="DBModel">
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="db_bancoModel.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="idCuenta" ColumnName="idCuenta" />
+          <ScalarProperty Name="numCuenta" ColumnName="numCuenta" />
+          <ScalarProperty Name="saldo" ColumnName="saldo" />
+          <ScalarProperty Name="fk_idCliente" ColumnName="fk_idCliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GuaranteeTypes">
+      <EntityTypeMapping TypeName="db_bancoModel.GuaranteeType">
+        <MappingFragment StoreEntitySet="GuaranteeType">
+          <ScalarProperty Name="idGarantia" ColumnName="idGarantia" />
+          <ScalarProperty Name="C_tipoGarantia" ColumnName="_tipoGarantia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Payments">
+      <EntityTypeMapping TypeName="db_bancoModel.Payment">
+        <MappingFragment StoreEntitySet="Payments">
+          <ScalarProperty Name="idComprobante" ColumnName="idComprobante" />
+          <ScalarProperty Name="tipoPago" ColumnName="tipoPago" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transactions">
+      <EntityTypeMapping TypeName="db_bancoModel.Transaction">
+        <MappingFragment StoreEntitySet="Transactions">
+          <ScalarProperty Name="idTransaccion" ColumnName="idTransaccion" />
+          <ScalarProperty Name="monto" ColumnName="monto" />
+          <ScalarProperty Name="idEmisor" ColumnName="idEmisor" />
+          <ScalarProperty Name="emisor" ColumnName="emisor" />
+          <ScalarProperty Name="destinatario" ColumnName="destinatario" />
+          <ScalarProperty Name="fechaTransaccion" ColumnName="fechaTransaccion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="db_bancoModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+          <ScalarProperty Name="cUsuario" ColumnName="cUsuario" />
+          <ScalarProperty Name="pin" ColumnName="pin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="db_bancoModel.Client">
+        <MappingFragment StoreEntitySet="Clients">
+          <ScalarProperty Name="fk_idUsuario" ColumnName="fk_idUsuario" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="cedula" ColumnName="cedula" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoanApplications">
+      <EntityTypeMapping TypeName="db_bancoModel.LoanApplication">
+        <MappingFragment StoreEntitySet="LoanApplication">
+          <ScalarProperty Name="numCuenta" ColumnName="numCuenta" />
+          <ScalarProperty Name="fk_idCliente" ColumnName="fk_idCliente" />
+          <ScalarProperty Name="estadoSolicitud" ColumnName="estadoSolicitud" />
+          <ScalarProperty Name="fechaSolicitud" ColumnName="fechaSolicitud" />
+          <ScalarProperty Name="montoSolicitado" ColumnName="montoSolicitado" />
+          <ScalarProperty Name="idSolicitud" ColumnName="idSolicitud" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Loans">
+      <EntityTypeMapping TypeName="db_bancoModel.Loan">
+        <MappingFragment StoreEntitySet="Loans">
+          <ScalarProperty Name="costoPrestamo" ColumnName="costoPrestamo" />
+          <ScalarProperty Name="capital" ColumnName="capital" />
+          <ScalarProperty Name="tasaInteres" ColumnName="tasaInteres" />
+          <ScalarProperty Name="FechaTermino" ColumnName="FechaTermino" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="fechaAprobacion" ColumnName="fechaAprobacion" />
+          <ScalarProperty Name="fk_idCliente" ColumnName="fk_idCliente" />
+          <ScalarProperty Name="idSolicitud" ColumnName="idSolicitud" />
+          <ScalarProperty Name="Garantia" ColumnName="Garantia" />
+          <ScalarProperty Name="idPrestamo" ColumnName="idPrestamo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoanSchedules">
+      <EntityTypeMapping TypeName="db_bancoModel.LoanSchedule">
+        <MappingFragment StoreEntitySet="LoanSchedule">
+          <ScalarProperty Name="fk_idCliente" ColumnName="fk_idCliente" />
+          <ScalarProperty Name="fk_idComprobante" ColumnName="fk_idComprobante" />
+          <ScalarProperty Name="fechaEfectiva" ColumnName="fechaEfectiva" />
+          <ScalarProperty Name="fechaPlanificada" ColumnName="fechaPlanificada" />
+          <ScalarProperty Name="abonoCapital" ColumnName="abonoCapital" />
+          <ScalarProperty Name="tipoPago" ColumnName="tipoPago" />
+          <ScalarProperty Name="cuotaPrestamo" ColumnName="cuotaPrestamo" />
+          <ScalarProperty Name="fk_idPrestamo" ColumnName="fk_idPrestamo" />
+          <ScalarProperty Name="idCronograma_pres" ColumnName="idCronograma_pres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

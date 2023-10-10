@@ -1,0 +1,623 @@
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\inicioRegistro.dll.config
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\inicioRegistro.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\inicioRegistro.pdb
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\csc.exe
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\csc.exe.config
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\csc.rsp
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\csi.exe
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\csi.exe.config
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\csi.rsp
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.AppContext.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.Console.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.Compression.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.Net.Http.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.Net.Sockets.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.ValueTuple.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.XPath.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\vbc.exe
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\vbc.exe.config
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\vbc.rsp
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\VBCSCompiler.exe
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\Antlr3.Runtime.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\MySql.Data.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\Newtonsoft.Json.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\System.Web.Helpers.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\System.Web.Mvc.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\System.Web.Optimization.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\System.Web.Razor.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Deployment.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Razor.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\WebGrease.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\Google.Protobuf.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\MySql.Data.xml
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\System.Web.Helpers.xml
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\System.Web.Mvc.xml
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\System.Web.Optimization.xml
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\System.Web.Razor.xml
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.xml
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Deployment.xml
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Razor.xml
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\Newtonsoft.Json.xml
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\Antlr3.Runtime.pdb
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\es\System.Web.Helpers.resources.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\es\System.Web.Mvc.resources.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\es\System.Web.Optimization.resources.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\es\System.Web.Razor.resources.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\es\System.Web.WebPages.resources.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.csproj.AssemblyReference.cache
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.csproj.CoreCompileInputs.cache
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.dll
+C:\Users\rabri\source\repos\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.pdb
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\inicioRegistro.dll.config
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\inicioRegistro.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\inicioRegistro.pdb
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\csc.exe
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\csc.exe.config
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\csc.rsp
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\csi.exe
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\csi.exe.config
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\csi.rsp
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.AppContext.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Console.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.Compression.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Net.Http.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Net.Sockets.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.ValueTuple.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.XPath.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\vbc.exe
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\vbc.exe.config
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\vbc.rsp
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\VBCSCompiler.exe
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\Antlr3.Runtime.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\MySql.Data.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\Newtonsoft.Json.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Helpers.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Mvc.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Optimization.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Razor.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Deployment.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Razor.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\WebGrease.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\Google.Protobuf.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\MySql.Data.xml
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Helpers.xml
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Mvc.xml
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Optimization.xml
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Razor.xml
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.xml
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Deployment.xml
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Razor.xml
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\Newtonsoft.Json.xml
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\Antlr3.Runtime.pdb
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.Helpers.resources.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.Mvc.resources.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.Optimization.resources.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.Razor.resources.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.WebPages.resources.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.csproj.AssemblyReference.cache
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.csproj.CoreCompileInputs.cache
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.dll
+C:\Users\rabri\Desktop\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.pdb
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\inicioRegistro.dll.config
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\inicioRegistro.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\inicioRegistro.pdb
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\csc.exe
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\csc.exe.config
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\csc.rsp
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\csi.exe
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\csi.exe.config
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\csi.rsp
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.AppContext.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Console.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.Compression.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Net.Http.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.ValueTuple.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\vbc.exe
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\vbc.exe.config
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\vbc.rsp
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\VBCSCompiler.exe
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\Antlr3.Runtime.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\Newtonsoft.Json.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Helpers.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Mvc.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Optimization.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Razor.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Razor.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\WebGrease.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\Google.Protobuf.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\MySql.Data.xml
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Helpers.xml
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Mvc.xml
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Optimization.xml
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Razor.xml
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.xml
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Razor.xml
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\Newtonsoft.Json.xml
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\Antlr3.Runtime.pdb
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.Razor.resources.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.csproj.AssemblyReference.cache
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.csproj.CoreCompileInputs.cache
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.csproj.CopyComplete
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.dll
+C:\Users\Soporte\Desktop\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.pdb
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\inicioRegistro.dll.config
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\inicioRegistro.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\inicioRegistro.pdb
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\csc.exe
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\csc.exe.config
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\csc.rsp
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\csi.exe
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\csi.exe.config
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\csi.rsp
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.AppContext.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Console.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.Compression.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Net.Http.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.ValueTuple.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\vbc.exe
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\vbc.exe.config
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\vbc.rsp
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\VBCSCompiler.exe
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\Antlr3.Runtime.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\Newtonsoft.Json.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Helpers.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Mvc.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Optimization.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Razor.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Razor.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\WebGrease.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\Google.Protobuf.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\MySql.Data.xml
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Helpers.xml
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Mvc.xml
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Optimization.xml
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.Razor.xml
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.xml
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Razor.xml
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\Newtonsoft.Json.xml
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\Antlr3.Runtime.pdb
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.Razor.resources.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.csproj.AssemblyReference.cache
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.csproj.CoreCompileInputs.cache
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.csproj.CopyComplete
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.dll
+C:\Users\Leny\Desktop\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.pdb
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\inicioRegistro.dll.config
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\inicioRegistro.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\inicioRegistro.pdb
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\csc.exe
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\csc.exe.config
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\csc.rsp
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\csi.exe
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\csi.exe.config
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\csi.rsp
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.AppContext.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.Console.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.Compression.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.Net.Http.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.Net.Sockets.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.ValueTuple.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.XPath.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\vbc.exe
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\vbc.exe.config
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\vbc.rsp
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\VBCSCompiler.exe
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\Antlr3.Runtime.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\MySql.Data.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\Newtonsoft.Json.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\System.Web.Helpers.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\System.Web.Mvc.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\System.Web.Optimization.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\System.Web.Razor.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Deployment.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Razor.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\WebGrease.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\Google.Protobuf.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\MySql.Data.xml
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\System.Web.Helpers.xml
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\System.Web.Mvc.xml
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\System.Web.Optimization.xml
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\System.Web.Razor.xml
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.xml
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Deployment.xml
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Razor.xml
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\Newtonsoft.Json.xml
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\Antlr3.Runtime.pdb
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\es\System.Web.Helpers.resources.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\es\System.Web.Mvc.resources.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\es\System.Web.Optimization.resources.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\es\System.Web.Razor.resources.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\es\System.Web.WebPages.resources.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.csproj.AssemblyReference.cache
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.csproj.CoreCompileInputs.cache
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.dll
+C:\Users\rabri\Documents\me\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.pdb
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\inicioRegistro.dll.config
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\inicioRegistro.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\inicioRegistro.pdb
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\csc.exe
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\csc.exe.config
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\csc.rsp
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\csi.exe
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\csi.exe.config
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\csi.rsp
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.AppContext.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.Console.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.Compression.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.Net.Http.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.Net.Sockets.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.ValueTuple.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.XPath.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\vbc.exe
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\vbc.exe.config
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\vbc.rsp
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\VBCSCompiler.exe
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\Antlr3.Runtime.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\MySql.Data.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\Newtonsoft.Json.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\System.Web.Helpers.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\System.Web.Mvc.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\System.Web.Optimization.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\System.Web.Razor.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Deployment.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Razor.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\WebGrease.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\Google.Protobuf.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\MySql.Data.xml
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\System.Web.Helpers.xml
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\System.Web.Mvc.xml
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\System.Web.Optimization.xml
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\System.Web.Razor.xml
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.xml
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Deployment.xml
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\System.Web.WebPages.Razor.xml
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\Newtonsoft.Json.xml
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\Antlr3.Runtime.pdb
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\es\System.Web.Helpers.resources.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\es\System.Web.Mvc.resources.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\es\System.Web.Optimization.resources.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\es\System.Web.Razor.resources.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\es\System.Web.WebPages.resources.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.csproj.AssemblyReference.cache
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.csproj.CoreCompileInputs.cache
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.dll
+C:\Users\rabri\Documents\New folder\inicioRegistro\inicioRegistro\obj\Debug\inicioRegistro.pdb
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\inicioRegistro.dll.config
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\inicioRegistro.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\inicioRegistro.pdb
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\csc.exe
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\csc.exe.config
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\csc.rsp
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\csi.exe
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\csi.exe.config
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\csi.rsp
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.AppContext.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.Console.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.IO.Compression.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.Net.Http.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.Net.Sockets.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.ValueTuple.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.Xml.XPath.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\vbc.exe
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\vbc.exe.config
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\vbc.rsp
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\VBCSCompiler.exe
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\Antlr3.Runtime.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\MySql.Data.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\Newtonsoft.Json.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\System.Web.Helpers.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\System.Web.Mvc.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\System.Web.Optimization.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\System.Web.Razor.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\System.Web.WebPages.Deployment.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\System.Web.WebPages.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\System.Web.WebPages.Razor.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\WebGrease.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\Google.Protobuf.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\MySql.Data.xml
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\System.Web.Helpers.xml
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\System.Web.Mvc.xml
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\System.Web.Optimization.xml
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\System.Web.Razor.xml
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\System.Web.WebPages.xml
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\System.Web.WebPages.Deployment.xml
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\System.Web.WebPages.Razor.xml
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\Newtonsoft.Json.xml
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\Antlr3.Runtime.pdb
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\es\System.Web.Helpers.resources.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\es\System.Web.Mvc.resources.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\es\System.Web.Optimization.resources.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\es\System.Web.Razor.resources.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\es\System.Web.WebPages.resources.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\obj\Debug\inicioRegistro.csproj.AssemblyReference.cache
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\obj\Debug\inicioRegistro.csproj.CoreCompileInputs.cache
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\obj\Debug\inicioRegistro.csproj.CopyComplete
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\obj\Debug\inicioRegistro.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\obj\Debug\inicioRegistro.pdb
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\EntityFramework.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\EntityFramework.SqlServer.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\EntityFramework.xml
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\EntityFramework.SqlServer.xml
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\System.Data.SqlClient.dll
+C:\Users\rabri\Documents\me\BANK_PROJECT\CRE_BANCO\proyectofinal_BANCOCRE\inicioRegistro\bin\System.Data.SqlClient.xml

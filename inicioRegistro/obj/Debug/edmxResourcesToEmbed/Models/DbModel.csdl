@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db_bancoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="idCuenta" />
+    </Key>
+    <Property Name="idCuenta" Type="Int32" Nullable="false" />
+    <Property Name="numCuenta" Type="String" MaxLength="16" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="saldo" Type="Double" Nullable="false" />
+    <Property Name="fk_idCliente" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GuaranteeType">
+    <Key>
+      <PropertyRef Name="idGarantia" />
+    </Key>
+    <Property Name="idGarantia" Type="Int32" Nullable="false" />
+    <Property Name="C_tipoGarantia" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="idComprobante" />
+    </Key>
+    <Property Name="idComprobante" Type="Int32" Nullable="false" />
+    <Property Name="tipoPago" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Transaction">
+    <Key>
+      <PropertyRef Name="idTransaccion" />
+    </Key>
+    <Property Name="idTransaccion" Type="Int32" Nullable="false" />
+    <Property Name="monto" Type="Double" Nullable="false" />
+    <Property Name="idEmisor" Type="Int32" Nullable="false" />
+    <Property Name="emisor" Type="String" MaxLength="16" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="destinatario" Type="String" MaxLength="16" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fechaTransaccion" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="idUsuario" />
+    </Key>
+    <Property Name="idUsuario" Type="Int32" Nullable="false" />
+    <Property Name="cUsuario" Type="String" MaxLength="16" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="pin" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="DBModel" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Accounts" EntityType="Self.Account" />
+    <EntitySet Name="GuaranteeTypes" EntityType="Self.GuaranteeType" />
+    <EntitySet Name="Payments" EntityType="Self.Payment" />
+    <EntitySet Name="Transactions" EntityType="Self.Transaction" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <EntitySet Name="Clients" EntityType="db_bancoModel.Client" />
+    <EntitySet Name="LoanApplications" EntityType="db_bancoModel.LoanApplication" />
+    <EntitySet Name="Loans" EntityType="db_bancoModel.Loan" />
+    <EntitySet Name="LoanSchedules" EntityType="db_bancoModel.LoanSchedule" />
+  </EntityContainer>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="idCliente" />
+    </Key>
+    <Property Name="idCliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="apellido" Type="String" Nullable="false" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="cedula" Type="String" Nullable="false" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="direccion" Type="String" Nullable="false" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="telefono" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="fk_idUsuario" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LoanApplication">
+    <Key>
+      <PropertyRef Name="idSolicitud" />
+    </Key>
+    <Property Name="idSolicitud" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="montoSolicitado" Type="Double" Nullable="false" />
+    <Property Name="fechaSolicitud" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="estadoSolicitud" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="fk_idCliente" Type="Int32" Nullable="false" />
+    <Property Name="numCuenta" Type="String" Nullable="false" MaxLength="16" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Loan">
+    <Key>
+      <PropertyRef Name="idPrestamo" />
+    </Key>
+    <Property Name="idPrestamo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Garantia" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="idSolicitud" Type="Int32" Nullable="false" />
+    <Property Name="fk_idCliente" Type="Int32" Nullable="false" />
+    <Property Name="fechaAprobacion" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="FechaInicio" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="FechaTermino" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="tasaInteres" Type="Double" Nullable="false" />
+    <Property Name="capital" Type="Double" Nullable="false" />
+    <Property Name="costoPrestamo" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LoanSchedule">
+    <Key>
+      <PropertyRef Name="idCronograma_pres" />
+    </Key>
+    <Property Name="idCronograma_pres" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fk_idPrestamo" Type="Int32" Nullable="false" />
+    <Property Name="cuotaPrestamo" Type="Double" Nullable="false" />
+    <Property Name="tipoPago" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="abonoCapital" Type="Double" Nullable="false" />
+    <Property Name="fechaPlanificada" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="fechaEfectiva" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="fk_idComprobante" Type="Int32" Nullable="false" />
+    <Property Name="fk_idCliente" Type="Int32" Nullable="false" />
+  </EntityType>
+</Schema>
